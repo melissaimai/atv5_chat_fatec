@@ -109,7 +109,8 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:onClick="novidades">
+                android:onClick="novidades"
+                tools:ignore="OnClick">
 
                 <TextView
                     android:id="@+id/novidadesText"
@@ -141,7 +142,8 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:onClick="cinema">
+                android:onClick="cinema"
+                tools:ignore="OnClick">
 
                 <TextView
                     android:id="@+id/cinemaText"
@@ -184,7 +186,8 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:onClick="tecnologia">
+                android:onClick="tecnologia"
+                tools:ignore="OnClick">
 
                 <TextView
                     android:id="@+id/tecnologiaText"
@@ -216,7 +219,8 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:onClick="economia">
+                android:onClick="economia"
+                tools:ignore="OnClick">
 
                 <TextView
                     android:id="@+id/economiaText"
