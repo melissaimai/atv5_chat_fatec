@@ -17,6 +17,10 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity"/>
         <activity android:name=".ChatActivity" />
+        <activity android:name=".ChatActivityCinema" />
+        <activity android:name=".ChatActivityNovidades" />
+        <activity android:name=".ChatActivityTecnologia" />
+        <activity android:name=".ChatActivityEconomia" />
         <activity android:name=".MenuActivity" />
         <activity android:name=".NovoUsuarioActivity" />
         <activity android:name=".TelaInicialActivity">

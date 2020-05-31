@@ -24,7 +24,7 @@ import java.util.List;
 
 import br.gov.sp.fatec.fatec_ipi_noite_chat_com_firebase.util.ElementEnabler;
 
-public class ChatActivity extends AppCompatActivity {
+abstract class ChatActivity extends AppCompatActivity {
 
     private ChatAdapter adapter;
     private List<Mensagem> mensagens;
@@ -60,12 +60,12 @@ public class ChatActivity extends AppCompatActivity {
 
     private void setupFirebase(){
         firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
-        mensagensReference = FirebaseFirestore.getInstance().collection("mensagens");
+        mensagensReference = FirebaseFirestore.getInstance().collection(SALA());
         getRemoteMsgs();
     }
 
     @Override
-    protected void  onStart(){
+    protected void onStart() {
         super.onStart();
         setupFirebase();
     }
@@ -78,9 +78,11 @@ public class ChatActivity extends AppCompatActivity {
         mensagemEditText.getText().clear();
     }
 
-    private void esconderTeclado(View v){
+    private void esconderTeclado(View v) {
         InputMethodManager imm =
-                (InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
+                (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
         imm.hideSoftInputFromWindow(v.getWindowToken(), 0);
     }
+
+    abstract String SALA();
 }
