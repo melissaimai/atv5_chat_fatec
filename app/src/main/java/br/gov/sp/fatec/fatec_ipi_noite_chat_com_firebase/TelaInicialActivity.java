@@ -16,12 +16,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class TelaInicialActivity extends AppCompatActivity {
 
-    private static int SPLASH_SCREEN = 3000;
-
-    //Variables
-    Animation topAnim, bottomAnim;
-    ImageView image;
-    TextView logo, slogan;
+    private static final short SPLASH_SCREEN = 3000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,30 +25,26 @@ public class TelaInicialActivity extends AppCompatActivity {
         setContentView(R.layout.activity_tela__inicial_);
 
         //Animations
-        topAnim = AnimationUtils.loadAnimation(this,R.anim.top_animation);
-        bottomAnim = AnimationUtils.loadAnimation(this,R.anim.bottom_animation);
+        Animation topAnim = AnimationUtils.loadAnimation(this, R.anim.top_animation);
+        Animation bottomAnim = AnimationUtils.loadAnimation(this, R.anim.bottom_animation);
 
         //Hooks
-        image = findViewById(R.id.chat_imageView);
-        logo = findViewById(R.id.chat_textView);
-        slogan = findViewById(R.id.fatec_textView);
+        ImageView image = findViewById(R.id.chat_imageView);
+        TextView logo = findViewById(R.id.chat_textView);
+        TextView slogan = findViewById(R.id.fatec_textView);
 
         image.setAnimation(topAnim);
         logo.setAnimation(bottomAnim);
         slogan.setAnimation(bottomAnim);
 
-
         new Handler().postDelayed(() -> {
             Intent intent = new Intent(TelaInicialActivity.this, MainActivity.class);
 
-            Pair[] pairs = new Pair[2];
-            pairs[0] = new Pair<View, String>(image, "logo_image");
-            pairs[1] = new Pair<View, String>(logo, "logo_text");
+            final Pair<View, String> logo_image = new Pair<>(image, "logo_image");
+            final Pair<View, String> logo_text = new Pair<>(logo, "logo_text");
 
-            ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(TelaInicialActivity.this,pairs);
-            startActivity(intent,options.toBundle());
-
+            ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(TelaInicialActivity.this, logo_image, logo_text);
+            startActivity(intent, options.toBundle());
         },SPLASH_SCREEN);
-
     }
 }
