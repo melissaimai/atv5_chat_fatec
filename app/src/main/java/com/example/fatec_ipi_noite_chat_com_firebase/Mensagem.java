@@ -6,7 +6,7 @@ public class Mensagem implements Comparable <Mensagem>{
     private String usuario;
     private Date date;
     private String texto;
-
+    public Mensagem(){}
     @Override
     public int compareTo(Mensagem o){
         return this.date.compareTo(o.date);
@@ -16,6 +16,7 @@ public class Mensagem implements Comparable <Mensagem>{
         this.date = date;
         this.texto = texto;
     }
+
 
     public String getUsuario() { return usuario; }
 

@@ -47,7 +47,7 @@ public class ChatActivity extends AppCompatActivity {
         mensagensRecyclerView.setAdapter(adapter);
         LinearLayoutManager linearLayoutManager =
                 new LinearLayoutManager(this);
-   //     LinearLayoutManager.setReverseLayout(true);
+        linearLayoutManager.setReverseLayout(true);
         mensagensRecyclerView.setLayoutManager(linearLayoutManager);
         mensagemEditText = findViewById(R.id.mensagemEditText);
     }
@@ -79,7 +79,7 @@ public class ChatActivity extends AppCompatActivity {
         String texto = mensagemEditText.getText().toString();
         Mensagem mensagem = new Mensagem (firebaseUser.getEmail(), new Date(), texto);
         esconderTeclado(v);
-        mensagensReference.add(mensagem);
+        mensagensReference.add(texto);
         mensagemEditText.getText().clear();
     }
 
