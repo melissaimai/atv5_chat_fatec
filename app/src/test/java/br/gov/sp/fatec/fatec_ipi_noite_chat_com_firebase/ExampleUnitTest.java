@@ -1,8 +1,8 @@
-package com.example.fatec_ipi_noite_chat_com_firebase;
+package br.gov.sp.fatec.fatec_ipi_noite_chat_com_firebase;
 
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 /**
  * Example local unit test, which will execute on the development machine (host).

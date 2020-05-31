@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:831228553220:android:4312c9a9f03c82a0692d51",
         "android_client_info": {
-          "package_name": "com.example.fatec_ipi_noite_chat_com_firebase"
+          "package_name": "br.gov.sp.fatec.fatec_ipi_noite_chat_com_firebase"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "831228553220-cvro5oltqk8jea17o2nr82lo0i9gl8mf.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.fatec_ipi_noite_chat_com_firebase",
+            "package_name": "br.gov.sp.fatec.fatec_ipi_noite_chat_com_firebase",
             "certificate_hash": "d4675be11cc3724000481e9ade67743d8a923eae"
           }
         },

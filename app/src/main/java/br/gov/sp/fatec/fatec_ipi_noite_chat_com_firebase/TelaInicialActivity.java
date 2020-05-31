@@ -1,6 +1,4 @@
-package com.example.fatec_ipi_noite_chat_com_firebase;
-
-import androidx.appcompat.app.AppCompatActivity;
+package br.gov.sp.fatec.fatec_ipi_noite_chat_com_firebase;
 
 import android.app.ActivityOptions;
 import android.content.Intent;
@@ -13,6 +11,8 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class TelaInicialActivity extends AppCompatActivity {
 

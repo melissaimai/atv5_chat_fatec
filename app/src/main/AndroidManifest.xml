@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.fatec_ipi_noite_chat_com_firebase">
+    package="br.gov.sp.fatec.fatec_ipi_noite_chat_com_firebase">
 
     <supports-screens
         android:largeScreens="true"

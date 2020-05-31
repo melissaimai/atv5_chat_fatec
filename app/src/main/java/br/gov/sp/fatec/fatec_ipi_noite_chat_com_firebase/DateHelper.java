@@ -1,4 +1,4 @@
-package com.example.fatec_ipi_noite_chat_com_firebase;
+package br.gov.sp.fatec.fatec_ipi_noite_chat_com_firebase;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

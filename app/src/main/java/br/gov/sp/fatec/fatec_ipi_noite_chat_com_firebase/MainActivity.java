@@ -1,12 +1,12 @@
-package com.example.fatec_ipi_noite_chat_com_firebase;
-
-import androidx.appcompat.app.AppCompatActivity;
+package br.gov.sp.fatec.fatec_ipi_noite_chat_com_firebase;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.firebase.auth.FirebaseAuth;
 
