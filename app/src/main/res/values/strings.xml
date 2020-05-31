@@ -13,4 +13,5 @@
     <string name="chat_e_bate_papo">Chat e Bate Papo</string>
     <string name="welcome">Bem-vindo ao chat</string>
     <string name="login">Faça o login para continuar</string>
+    <string name="signup">Crie sua conta</string>
 </resources>
