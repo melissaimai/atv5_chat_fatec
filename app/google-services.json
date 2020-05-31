@@ -1,42 +1,42 @@
 {
   "project_info": {
-    "project_number": "831228553220",
-    "firebase_url": "https://fatecipinoitechatcomfire-65400.firebaseio.com",
-    "project_id": "fatecipinoitechatcomfire-65400",
-    "storage_bucket": "fatecipinoitechatcomfire-65400.appspot.com"
+    "project_number": "213371362083",
+    "firebase_url": "https://fatecipinoitechatcomfire-2d41b.firebaseio.com",
+    "project_id": "fatecipinoitechatcomfire-2d41b",
+    "storage_bucket": "fatecipinoitechatcomfire-2d41b.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:831228553220:android:4312c9a9f03c82a0692d51",
+        "mobilesdk_app_id": "1:213371362083:android:eb3a724ca2cc3310df8a96",
         "android_client_info": {
           "package_name": "br.gov.sp.fatec.fatec_ipi_noite_chat_com_firebase"
         }
       },
       "oauth_client": [
         {
-          "client_id": "831228553220-cvro5oltqk8jea17o2nr82lo0i9gl8mf.apps.googleusercontent.com",
+          "client_id": "213371362083-pu4jcuf687gduf2iqkguu51881baudql.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "br.gov.sp.fatec.fatec_ipi_noite_chat_com_firebase",
-            "certificate_hash": "d4675be11cc3724000481e9ade67743d8a923eae"
+            "certificate_hash": "f49d57bf4e4dc19892403cb311416f8c078853d5"
           }
         },
         {
-          "client_id": "831228553220-lr0bbkh95umslisobvhim8ibkkhuespr.apps.googleusercontent.com",
+          "client_id": "213371362083-1l413uahml1bfs6voa0si7jh4soasi8e.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCGneT4a9jckNJbkNjWUlKkgeygAzLHrfk"
+          "current_key": "AIzaSyCRgAqAoQhXOsI3fpo_hoDuhHMgwTjXvQE"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "831228553220-lr0bbkh95umslisobvhim8ibkkhuespr.apps.googleusercontent.com",
+              "client_id": "213371362083-1l413uahml1bfs6voa0si7jh4soasi8e.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
