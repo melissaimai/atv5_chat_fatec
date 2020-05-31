@@ -15,21 +15,22 @@ public class MenuActivity extends AppCompatActivity {
     }
 
     public void novidades(View view) {
-        Intent intent = new Intent(this, ChatActivity.class);
-        startActivity(intent);
+        chat();
     }
 
     public void cinema(View view) {
-        Intent intent = new Intent(this, ChatActivity.class);
-        startActivity(intent);
+        chat();
     }
 
     public void tecnologia(View view) {
-        Intent intent = new Intent(this, ChatActivity.class);
-        startActivity(intent);
+        chat();
     }
 
     public void economia(View view) {
+        chat();
+    }
+
+    private void chat() {
         Intent intent = new Intent(this, ChatActivity.class);
         startActivity(intent);
     }

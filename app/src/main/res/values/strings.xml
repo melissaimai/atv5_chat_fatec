@@ -14,4 +14,10 @@
     <string name="welcome">Bem-vindo ao chat</string>
     <string name="login">Faça o login para continuar</string>
     <string name="signup">Crie sua conta</string>
+    <string name="menu_title">Chat e bate papo</string>
+    <string name="menu_subtitle">Qual seu interesse?</string>
+    <string name="novidades">Novidades</string>
+    <string name="cinema">Cinema</string>
+    <string name="tecnologia">Tecnologia</string>
+    <string name="economia">Economia</string>
 </resources>
