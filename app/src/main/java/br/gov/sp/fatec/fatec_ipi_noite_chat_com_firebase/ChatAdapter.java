@@ -8,8 +8,9 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import java.text.SimpleDateFormat;
 import java.util.List;
+
+import br.gov.sp.fatec.fatec_ipi_noite_chat_com_firebase.util.DateFormater;
 
 class ChatAdapter extends RecyclerView.Adapter<ChatViewHolder> {
     private List<Mensagem> mensagens;
@@ -24,7 +25,7 @@ class ChatAdapter extends RecyclerView.Adapter<ChatViewHolder> {
     public void onBindViewHolder(@NonNull ChatViewHolder holder, int position) {
         Mensagem m = mensagens.get(position);
         holder.mensagemTextView.setText(m.getTexto());
-        holder.dataNomeTextView.setText(context.getString(R.string.mensagem, SimpleDateFormat.getTimeInstance().format(m.getDate()), m.getUsuario()));
+        holder.dataNomeTextView.setText(context.getString(R.string.mensagem, DateFormater.format(m.getDate()), m.getUsuario()));
     }
 
     @NonNull
